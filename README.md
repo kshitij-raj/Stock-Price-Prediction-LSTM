@@ -7,13 +7,20 @@ I created a new data frame containing only the target variable - Closing stock p
 
 ## Model Building
 A Long Short-Term Model was built using Keras which had 50 units, 3 hidden layers and a dense layer (output) to predict the normalized closing stock price.
+
 ![Model Summary](https://github.com/kshitij-raj/Stock-Price-Prediction-LSTM/blob/main/PNG_Files/ModelSummary.png)
 
+
+
 The model was compile using the mean squared error as loss function and to reduce the loss or to optimize the algorithm, I used the Adam optimizer.
+
 ![Model Loss Score](https://github.com/kshitij-raj/Stock-Price-Prediction-LSTM/blob/main/PNG_Files/ModelLoss.png)
 
+
 The model was fit and passed to the training features and a test data set was created to get predictions.
+
 ![Model Prediction](https://github.com/kshitij-raj/Stock-Price-Prediction-LSTM/blob/main/PNG_Files/ModelPrediction.png)
+
 
 Lastly forecast the stock price of the 30 days.
 ![Model Forecast](https://github.com/kshitij-raj/Stock-Price-Prediction-LSTM/blob/main/PNG_Files/ModelForcast.png)
